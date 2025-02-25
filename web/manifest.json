@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "MailMind",
+  "description": "MailMind is a Chrome extension that helps you manage your emails.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "/icons/icon16.png",
+      "32": "/icons/icon32.png",
+      "48": "/icons/icon48.png",
+      "64": "/icons/icon64.png",
+      "128": "/icons/icon128.png",
+      "256": "/icons/icon256.png"
+    }
+  },
+  "icons": {
+    "16": "/icons/icon16.png",
+    "32": "/icons/icon32.png",
+    "48": "/icons/icon48.png",
+    "64": "/icons/icon64.png",
+    "128": "/icons/icon128.png",
+    "256": "/icons/icon256.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; style-src 'self' 'unsafe-inline';"
+  }
+}
