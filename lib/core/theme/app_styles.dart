@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-abstract class Styles {
+abstract class AppStyles {
   // Font Weights
   static const FontWeight black = FontWeight.w900;
   static const FontWeight bold = FontWeight.w700; 
