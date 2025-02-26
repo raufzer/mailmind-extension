@@ -1,28 +1,27 @@
-// import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 abstract class AppRouters {
-  static const kConnectingView = '/connectingView';
-  static const kMainView = '/mainView';
-  static const kSettingsView = '/settingsView';
+  static const kWelcomeScreen = '/welcomeScreen';
+  static const kMainScreen = '/mainScreen';
+  static const kSettingsScreen = '/settingsScreen';
   static final GoRouter router = GoRouter(
     routes: <RouteBase>[
       // GoRoute(
       //   path: '/',
       //   builder: (BuildContext context, GoRouterState state) {
-      //     return const ConnectingView();
+      //     return const WelcomeScreen();
       //   },
       // ),
       // GoRoute(
-      //   path: kMainView,
+      //   path: kMainScreen,
       //   builder: (BuildContext context, GoRouterState state) {
-      //     return const MainView();
+      //     return const MainScreen();
       //   },
       // ),
       // GoRoute(
-      //   path: kSettingsView,
+      //   path: kSettingsScreen,
       //   builder: (BuildContext context, GoRouterState state) {
-      //     return const SettingsView();
+      //     return const SettingsScreen();
       //   },
       // ),
     ],
