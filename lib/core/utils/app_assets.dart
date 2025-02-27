@@ -4,6 +4,7 @@ class AssetsData {
   static const settingsIcon = 'assets/icons/settings_icon.svg';
   static const googleIcon = 'assets/icons/google_icon.svg';
   static const logOuttIcon = 'assets/icons/log_out_icon.svg';
+  static const swapIcon = 'assets/icons/swap_icon.svg';
 
   static const thumbImage = 'assets/images/mailmind_thumb.jpg';
   static const thumbImage1 = 'assets/images/mailmind_thumb1.jpg';
