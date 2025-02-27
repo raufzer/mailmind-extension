@@ -74,6 +74,7 @@ flutter:
     - assets/icons/search_icon.svg
     - assets/icons/google_icon.svg
     - assets/icons/mailmind_icon.svg
+    - assets/icons/swap_icon.svg
     # Images
     - assets/images/mailmind_thumb.jpg
     - assets/images/mailmind_thumb1.jpg
