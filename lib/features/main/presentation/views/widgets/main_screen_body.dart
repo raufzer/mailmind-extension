@@ -6,7 +6,7 @@ import 'package:mail_mind_extension/core/shared/widgets/headline_one.dart';
 import 'package:mail_mind_extension/core/theme/app_colors.dart';
 import 'package:mail_mind_extension/core/theme/app_styles.dart';
 import 'package:mail_mind_extension/core/utils/app_assets.dart';
-import 'package:mail_mind_extension/features/main/presentation/views/widgets/custom_text_button.dart';
+import 'package:mail_mind_extension/core/shared/widgets/custom_text_button.dart';
 import 'package:mail_mind_extension/features/main/presentation/views/widgets/generate_input.dart';
 import 'package:mail_mind_extension/features/main/presentation/views/widgets/feature_item.dart';
 
@@ -60,7 +60,12 @@ class MainScreenBody extends StatelessWidget {
                   color: kSecondaryColor,
                 ),
                 SizedBox(width: 20.r),
-                CustomTextButton(text: 'Send', onPressed: () {}),
+                CustomTextButton(
+                  text: 'Send',
+                  height: 155,
+                  width: 40,
+                  onPressed: () {},
+                ),
               ],
             ),
             SizedBox(height: 8.r),
