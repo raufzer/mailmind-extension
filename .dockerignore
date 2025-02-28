@@ -1,0 +1,20 @@
+# Ignore build and dependency-related files
+build/
+.dart_tool/
+packages/
+.pub-cache/
+.pub/
+.idea/
+.vscode/
+
+# Ignore system-specific files
+*.iml
+*.log
+*.swp
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore environment files
+.env
