@@ -44,6 +44,10 @@ dependencies:
   dartz: ^0.10.1
   cached_network_image: ^3.4.1
   rename: ^3.0.2
+  bloc: ^9.0.0
+  meta: ^1.16.0
+  dio_cookie_manager: ^3.2.0
+  cookie_jar: ^4.0.8
 
 dev_dependencies:
   flutter_test:
